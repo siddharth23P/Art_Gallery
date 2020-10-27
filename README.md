@@ -8,7 +8,7 @@ A Frontend Project on Art gallery.
 3. [Pieces.js](https://github.com/lmgonzalves/pieces)
 
 ## CSS Library Used -
-1. Bootstrap [a link]
+1.  [Bootstrap](https://getbootstrap.com)
 
 ## Reference
 
