@@ -10,7 +10,12 @@ A Frontend Project on Art gallery.
 ## CSS Library Used -
 1.  [Bootstrap](https://getbootstrap.com)
 
-## Reference
+## Reference -
 
 1. Index Page -[Organic Shapes](https://tympanus.net/codrops/2017/09/19/organic-shape-morph-ideas/)
 2. SlideShow - [Pieces SlideShow](https://tympanus.net/codrops/2018/02/21/animated-fragment-slideshow/)
+
+## ScreenShots -
+
+## 1.HomePage
+![OrganicBlob](/.ss/ss1.jpg)
