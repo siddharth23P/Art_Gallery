@@ -19,3 +19,13 @@ A Frontend Project on Art gallery.
 
 ## 1.HomePage
 ![OrganicBlob](/.ss/ss1.jpg)
+![OrganicBlob_OnHover](/.ss/ss2/jpg)
+
+## 2.Masonary
+![Masonary_Gallery](/.ss/ss3.jpg)
+
+## 3.SlideShow
+![Masonary_Gallery](/.ss/ss4.jpg)
+
+## 2.About US
+![Masonary_Gallery](/.ss/ss5.jpg)
