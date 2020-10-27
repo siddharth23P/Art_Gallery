@@ -27,5 +27,5 @@ A Frontend Project on Art gallery.
 ## 3.SlideShow
 ![Masonary_Gallery](/.ss/ss4.jpg)
 
-## 2.About US
+## 4.About US
 ![Masonary_Gallery](/.ss/ss5.jpg)
