@@ -1,6 +1,7 @@
 # Art_Gallery
 
 A Frontend Project on Art gallery.
+Hosted ON AWS IP - 52.66.187.131
 
 ## JS Library Used -
 1. [Anime.js](https://animejs.com/)
