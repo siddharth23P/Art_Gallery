@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nosifer"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Megrim"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nova Slim"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rock Salt"
+      rel="stylesheet"
+    />
+    <script src="./js/bootstrap.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .row {
+        background: #efeff2 url("../assets/bg.png") repeat-y 50% 500px;
+      }
+      .jumbotron h1 {
+        font-family: "Rock Salt";
+      }
+      h2,
+      h3,
+      h4,
+      p,
+      input,
+      label {
+        font-family: "Nova Slim";
+      }
+      nav {
+        background-color: #efeff2;
+        font-family: "Megrim";
+        font-weight: 800;
+      }
+      .brand {
+        width: 60px;
+      }
+      img {
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+      }
+      img:hover {
+        scale: 1.01;
+      }
+      div,
+      .row,
+      .col-lg-4,
+      .col-lg-8,
+      .col-lg-2 {
+        margin: 0px;
+        padding: 0;
+      }
+      .med {
+        height: 133%;
+      }
+      .stretch {
+        width: 150%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="jumbotron jumbotron-fluid"
+      style="text-align: center; background: url(./assets/1.jpg)"
+    >
+      <h1 class="display-4">Masonary</h1>
+      <hr class="my-2" />
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand"><img src="./assets/brand.jpg" class="brand" /></a>
+      <button
+        class="navbar-toggler"
+        data-target="#my-nav"
+        data-toggle="collapse"
+        aria-controls="my-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              >Masonary<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="./slideshow.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >SlideShow</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="./contactus.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >Contact US</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4" data-aos="zoom-in">
+          <img
+            class="masonary"
+            src="./assets/2-masonary.jpg"
+            data-aos="slide-right"
+          />
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div
+              class="col-lg-4"
+              data-anchor-placement="top-center"
+              data-aos="fade-down"
+            >
+              <img src="./assets/2.jpg" />
+            </div>
+            <div
+              class="col-lg-4"
+              data-anchor-placement="top-center"
+              data-aos="fade-down"
+            >
+              <img src="./assets/3.jpg" data-aos="slide-right" />
+            </div>
+            <div
+              class="col-lg-4"
+              data-anchor-placement="top-center"
+              data-aos="fade-up"
+            >
+              <img src="./assets/4.jpg" data-aos="slide-up" />
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-lg-4"
+              data-anchor-placement="top-center"
+              data-aos="fade-down"
+            >
+              <img class="med" src="./assets/5.jpg" data-aos="slide-down" />
+            </div>
+            <div
+              class="col-lg-4"
+              data-anchor-placement="top-center"
+              data-aos="fade-up"
+            >
+              <img class="med" src="./assets/6.jpg" data-aos="slide-left" />
+            </div>
+            <div
+              class="col-lg-4"
+              data-anchor-placement="top-center"
+              data-aos="fade-up"
+            >
+              <img class="med" src="./assets/7.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-lg-2"
+          data-anchor-placement="top-center"
+          data-aos="fade-up"
+        >
+          <img src="./assets/8.jpg" />
+        </div>
+        <div
+          class="col-lg-2"
+          data-anchor-placement="top-center"
+          data-aos="fade-down"
+        >
+          <img src="./assets/9.jpg" />
+        </div>
+        <div
+          class="col-lg-2"
+          data-anchor-placement="top-center"
+          data-aos="fade-up"
+        >
+          <img src="./assets/10.jpg" />
+        </div>
+        <div
+          class="col-lg-2"
+          data-anchor-placement="top-center"
+          data-aos="fade-down"
+        >
+          <img src="./assets/11.jpg" />
+        </div>
+        <div
+          class="col-lg-2"
+          data-anchor-placement="top-center"
+          data-aos="fade-up"
+        >
+          <img src="./assets/12.jpg" />
+        </div>
+        <div
+          class="col-lg-2"
+          data-anchor-placement="top-center"
+          data-aos="fade-down"
+        >
+          <img src="./assets/13.jpg" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="flex-row">
+            <div class="col-lg-8">
+              <img
+                class="stretch"
+                src="./assets/14.jpg"
+                data-anchor-placement="top-center"
+                data-aos="zoom-out"
+              />
+            </div>
+            <div class="col-lg-8">
+              <img
+                class="stretch"
+                src="./assets/16.jpg"
+                data-anchor-placement="top-center"
+                data-aos="zoom-out"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <img
+            src="./assets/15.jpg"
+            data-anchor-placement="top-center"
+            data-aos="zoom-in"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/anime.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1200 });
+      document.onreadystatechange = function () {
+        if (document.readyState == "complete") {
+          AOS.refresh();
+        }
+      };
+    </script>
+  </body>
+</html>

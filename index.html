@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nova Slim' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <script src="./js/bootstrap.min.js"></script>
+    </head>
+  <body>
+    <svg class="hidden">
+        <defs>
+            <path id="deco1" d="M 161,54.69 C 200.4,4.986 303.7,8.661 414.4,92.19 465.7,130.9 432.3,211.4 460,279.5 481,331.2 449.7,430.4 381.1,427 287.1,422.3 172.4,503.8 99.27,444.6 21.03,381.1 10.32,258.3 55.25,145.6 73.73,99.3 129.3,77.36 161,54.69 Z" />
+            <path id="deco2" d="M 119.8,69.41 C 213.5,18.01 367.2,-1.306 440.4,76.58 482.9,121.9 435.3,200.8 432.9,262.9 431.1,310.6 461.3,372.1 427.7,406 342.4,492 158.3,499.3 64.62,422.5 10.09,377.8 18.76,282.6 32.51,213.5 43.46,158.4 70.61,96.36 119.8,69.41 Z" />
+            <path id="deco3" d="M 77.03,75.72 C 147.9,0.2308 309,13.37 387.6,80.44 471.8,152.4 517.2,325.6 442.9,407.5 350.2,509.8 43.77,516.2 29.67,378.8 20.48,289.3 80.25,270.4 87.78,212 93.61,166.8 45.85,108.9 77.03,75.72 Z" />
+            <path id="deco4" d="M 38.35,160.1 C 74.92,86.34 178.1,44.04 260.1,51.51 348.2,59.54 441.6,126.9 473.5,209.4 499.3,276 485,371.9 431.9,419.6 348.2,494.9 185.6,517.4 95.49,449.9 16.71,390.8 -5.393,248.3 38.35,160.1 Z"/>
+        </defs>
+    </svg>
+    <div class="jumbotron jumbotron-fluid" style="text-align: center; background: url(./assets/1.jpg);">
+      <h1 class="display-4">Art Gallery</h1>
+      <hr class="my-2" />
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand"><img src="./assets/brand.jpg" class="brand"></a>
+      <button
+        class="navbar-toggler"
+        data-target="#my-nav"
+        data-toggle="collapse"
+        aria-controls="my-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="./masonary.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >Masonary</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="./slideshow.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >SlideShow</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="./contactus.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >Contact US</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+            <div class="item item--style-1" data-animation-path-duration="800" data-animation-path-easing="easeInOutCubic" data-path-elasticity="300" data-morph-path="M 189,80.37 C 232.6,46.67 352.5,67.06 350.9,124.1 349.5,173.4 311.7,168 312.4,248.1 312.9,301.1 382.5,319.2 368.5,379.1 349.4,460.6 137.7,467.5 117.6,386.3 98.68,309.7 171.5,292.2 183.6,240.1 195.7,188.2 123.8,130.7 189,80.37 Z" data-path-scaleX="0.8" data-path-scaleY="1.1" data-path-translateX="0" data-path-translateY="30" data-path-rotate="5" data-animation-image-duration="800" data-animation-image-easing="easeInOutQuart" data-image-elasticity="300" data-image-scaleX="1.2" data-image-scaleY="1.2" data-image-translateX="-20" data-image-translateY="-45" data-image-rotate="-5" data-animation-deco-duration="1300" data-animation-deco-easing="easeOutQuad" data-deco-elasticity="300" data-deco-scaleX="0.8" data-deco-scaleY="0.9" data-deco-translateX="-5" data-deco-translateY="-5" data-deco-rotate="2">
+                <svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
+                    <clipPath id="clipShape1">
+                        <path class="item__clippath" d="M 189,80.37 C 243,66.12 307.3,87.28 350.9,124.1 389.3,156.6 417,211.2 418.1,263.4 419.1,305.7 401.8,355.6 368.5,379.1 298.8,428 179.2,446.4 117.6,386.3 65.4,335.3 78.55,230.3 105.5,160.5 119.7,123.6 152.6,89.85 189,80.37 Z" />
+                    </clipPath>
+                    <g class="item__deco">
+                        <use xlink:href="#deco1" />
+                    </g>
+                    <g clip-path="url(#clipShape1)">
+                        <image class="item__img" xlink:href="./assets/oil1.png" x="0" y="0" height="500px" width="500px" />
+                    </g>
+                </svg>
+                <div class="item__meta">
+                    <div class="item__number">
+                        <span class="item__specimen">1</span>
+                        <span class="item__reference">Siddharth</span>
+                    </div>
+                    <h2 class="item__title">Anime.js</h2>
+                    <h3 class="item__subtitle">is <br>a lightweight JavaScript <br>animation library with a simple,<br> yet powerful API.</h3>
+                </div>
+            </div> 
+        </div>
+      <div class="container-fluid col-lg-4 col-md-6 col-sm-8 col-xs-12" data-aos="fade-left" data-aos-anchor-placement="top-center">
+        <div
+          id="carousel-1"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+          data-interval="5000"
+        >
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+            <li data-target="#carousel-1" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-responsive" src="./assets/1.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/2.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/3.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/4.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container-fluid col-lg-4 col-md-6 col-sm-8 col-xs-12" data-aos="fade-right" data-aos-anchor-placement="top-center">
+        <div
+          id="carousel-2"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+          data-interval="5000"
+        >
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-2" data-slide-to="0"></li>
+            <li data-target="#carousel-2" data-slide-to="1" class="active"></li>
+            <li data-target="#carousel-2" data-slide-to="2"></li>
+            <li data-target="#carousel-2" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-responsive" src="./assets/5.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/6.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/7.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/8.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">  <div class="item item--style-2" data-animation-path-duration="1500" data-animation-path-easing="easeOutElastic" data-morph-path="M 418.1,159.8 C 460.9,222.9 497,321.5 452.4,383.4 417.2,432.4 371.2,405.6 271.3,420.3 137.2,440 90.45,500.6 42.16,442.8 -9.572,381 86.33,289.1 117.7,215.5 144.3,153.4 145.7,54.21 212.7,36.25 290.3,15.36 373.9,94.6 418.1,159.8 Z" data-path-scaleY="1.1" data-image-scaleX="1.3" data-image-scaleY="1.3" data-animation-deco-duration="2000" data-animation-deco-delay="100" data-deco-rotate="-10">
+        <svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
+            <clipPath id="clipShape2">
+                <path class="item__clippath" d="M 378.1,121.2 C 408.4,150 417.2,197.9 411,245.8 404.8,293.7 383.5,341.7 353.4,370.7 303.2,419.1 198.7,427.7 144.5,383.8 86.18,336.5 67.13,221.3 111.9,161 138.6,125 188.9,99.62 240.7,90.92 292.4,82.24 345.6,90.32 378.1,121.2 Z" />
+            </clipPath>
+            <g class="item__deco">
+                <use xlink:href="#deco2" />
+            </g>
+            <g clip-path="url(#clipShape2)">
+                <image class="item__img" xlink:href="./assets/oil2.png" x="0" y="0" height="500px" width="500px" />
+            </g>
+        </svg>
+        <div class="item__meta">
+            <div class="item__number">
+                <span class="item__specimen">2</span>
+                <span class="item__reference">Anshuman</span>
+            </div>
+            <h2 class="item__title">Bootstrap</h2>
+            <h3 class="item__subtitle">Bootstrap is the most popular HTML,<br> CSS, and JavaScript<br>
+                framework for developing responsive,<br> mobile-first websites.</h3>
+        </div>
+    </div></div></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><div class="item item--style-3" data-animation-path-duration="3500" data-path-elasticity="500" data-morph-path="M 193.7,217.3 C 236.4,228.3 279.7,242.7 320.9,231.8 362.6,220.9 446.8,197.1 457.6,241.5 469.3,289.8 378.7,308.3 330.2,319.2 278.5,330.8 222.3,319.2 172.1,302.2 125.2,286.4 33.08,273.2 45.14,225.2 57.22,177.1 145.7,204.8 193.7,217.3 Z" data-path-translateY="-20" data-animation-image-duration="1000" data-animation-image-easing="easeOutQuint" data-image-rotate="45" data-image-scaleX="0.8" data-image-scaleY="0.8" data-animation-deco-duration="2000" data-animation-deco-easing="easeOutElastic" data-deco-scaleX="0.7" data-deco-rotate="-10">
+        <svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
+            <clipPath id="clipShape3">
+                <path class="item__clippath" d="M 184,127.4 C 235.4,92.39 319.7,79.27 359.9,132.2 383.2,163 357.1,216.6 355.8,258.8 354.8,291.2 371.3,332.9 352.9,356 306.1,414.4 205.1,419.3 153.7,367.2 123.8,336.8 128.6,272.1 136.1,225.2 142.1,187.8 157,145.7 184,127.4 Z" />
+            </clipPath>
+            <g class="item__deco">
+                <use xlink:href="#deco3" />
+            </g>
+            <g clip-path="url(#clipShape3)">
+                <image class="item__img" xlink:href="./assets/oil3.png" x="0" y="0" height="500px" width="500px" />
+            </g>
+        </svg>
+        <div class="item__meta">
+            <div class="item__number">
+                <span class="item__specimen">3</span>
+                <span class="item__reference">Aakash</span>
+            </div>
+            <h2 class="item__title">Aos.js</h2>
+            <h3 class="item__subtitle">Animate on Scroll</h3>
+        </div>
+    </div></div>
+      <div class="container-fluid col-lg-4 col-md-6 col-sm-8 col-xs-12"data-aos="fade-left" data-aos-anchor-placement="top-center">
+        <div
+          id="carousel-3"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+          data-interval="5000"
+        >
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-3" data-slide-to="0"></li>
+            <li data-target="#carousel-3" data-slide-to="1"></li>
+            <li data-target="#carousel-3" data-slide-to="2" class="active"></li>
+            <li data-target="#carousel-3" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-responsive" src="./assets/9.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/10.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/11.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/12.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container-fluid col-lg-4 col-md-6 col-sm-8 col-xs-12"data-aos="fade-right" data-aos-anchor-placement="top-center">
+        <div
+          id="carousel-4"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+          data-interval="5000"
+        >
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-4" data-slide-to="0"></li>
+            <li data-target="#carousel-4" data-slide-to="1"></li>
+            <li data-target="#carousel-4" data-slide-to="2"></li>
+            <li data-target="#carousel-4" data-slide-to="3" class="active"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-responsive" src="./assets/13.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/14.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/15.jpg" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-responsive" src="./assets/16.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><div class="item item--style-4" data-animation-path-duration="1700" data-animation-path-easing="easeInOutBack" data-morph-path="M 440.9,118.5 C 486.5,189.8 499,297.9 458.3,371.8 422.2,437.2 335.8,475.1 261.5,477.3 181.4,479.6 83.9,445.4 43.22,376.1 -0.2483,302.1 13.51,189.9 61.98,119.1 104.5,56.88 190.6,20.5 265.7,22.71 332.2,24.67 405,62.28 440.9,118.5 Z" data-path-translateY="-20" data-animation-image-duration="2000" data-animation-image-easing="easeInOutQuart" data-image-translateY="40" data-image-scaleX="1.3" data-image-scaleY="1.3" data-deco-scaleX="0.8" data-deco-scaleY="1.3">
+        <svg class="item__svg" width="500px" height="500px" viewBox="0 0 500 500">
+            <clipPath id="clipShape4">
+                <path class="item__clippath" d="M 402.7,215.5 C 433.9,280.4 488.1,367.2 447.7,426.8 410.1,482.2 316.7,460.2 249.7,460.6 182.8,461.1 88.08,485.5 51.26,429.5 10.29,367.3 73.19,279.4 106.9,213 141.8,144 176.6,33.65 253.9,33.7 332.2,33.75 368.8,144.9 402.7,215.5 Z" />
+            </clipPath>
+            <g class="item__deco">
+                <use xlink:href="#deco4" />
+            </g>
+            <g clip-path="url(#clipShape4)">
+                <image class="item__img" xlink:href="./assets/oil4.png" x="0" y="0" height="500px" width="500px" />
+            </g>
+        </svg>
+        <div class="item__meta">
+            <div class="item__number">
+                <span class="item__specimen">4</span>
+                <span class="item__reference">▲</span>
+            </div>
+            <h2 class="item__title">Thank You</h2>
+            <h3 class="item__subtitle">For Watching</h3>
+        </div>
+    </div></div>
+    </div>
+
+
+
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/anime.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1200, }); document.onreadystatechange = function () {
+      if (document.readyState == 'complete') { AOS.refresh(); } };
+    </script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

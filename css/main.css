@@ -1,0 +1,113 @@
+.jumbotron h1{
+    font-family: 'Rock Salt';
+}
+ h2,h3,h4,p,input,label{
+    font-family: 'Nova Slim'
+ }
+nav{
+    background-color: #efeff2;
+    font-family: 'Megrim';
+    font-weight: 800;
+}
+
+.brand{
+    width: 60px;
+}
+.row{
+    background: #eff1f2 url('../assets/bg.png')repeat-y 50% 500px;
+}
+.container-fluid img{
+    border-width: 20px;
+    border-color: #dcdcde;
+    border-style: solid;
+}
+.hidden {
+    display: none;
+}
+.item__svg {
+position: relative;
+display: block;
+width: 80%;
+height: auto;
+min-height: 500px;
+margin: 0 auto;
+}.item__clippath,
+.item__deco,
+.item__img {
+transform-origin: 50% 50%;
+}.item--style-1 .item__deco {
+fill: #dcdcde;
+
+}
+
+.item--style-2 .item__deco {
+fill: #404040;
+}
+
+.item--style-3 .item__deco {
+fill: #fff;
+}
+
+
+.item--style-4 .item__deco {
+fill: #dcdcde;
+}
+.item__meta {
+position: absolute;
+top: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+
+.item__number {
+position: absolute;
+top: 0;
+width: 100%;
+padding: 12.5% 0 0 3em;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+}
+
+.item__specimen {
+    font-family: 'Nosifer';
+font-size: 5em;
+font-weight: 500;
+line-height: 0.9;
+vertical-align: text-bottom;
+letter-spacing: -0.025em;
+
+}
+
+.item__reference {
+font-size: 1.25em;
+-webkit-writing-mode: vertical-rl;
+font-family: 'Varela', sans-serif;
+writing-mode: vertical-rl;
+
+}
+
+.item__title {
+font-size: 1.165em;
+font-family: 'Megrim';
+font-weight: 800;
+width: 100%;
+margin: 1em 0 0 0;
+text-align: center;
+letter-spacing: 0.125em;
+color: #fff;
+}
+
+.item__subtitle {
+font-size: 1em;
+font-family: 'Nova Slim';
+font-weight:400;
+margin: 0.5em 0 0;
+text-align: center;
+letter-spacing: 0.15em;
+opacity: 0;
+}
