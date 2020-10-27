@@ -19,7 +19,7 @@ A Frontend Project on Art gallery.
 
 ## 1.HomePage
 ![OrganicBlob](/.ss/ss1.jpg)
-![OrganicBlob_OnHover](/.ss/ss2/jpg)
+![OrganicBlob_OnHover](/.ss/ss2.jpg)
 
 ## 2.Masonary
 ![Masonary_Gallery](/.ss/ss3.jpg)
