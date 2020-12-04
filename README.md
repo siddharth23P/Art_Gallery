@@ -1,4 +1,4 @@
-# [Art_Gallery](http://52.66.187.131/)
+# [Art_Gallery]
 
 A Frontend Project on Art gallery.
 
